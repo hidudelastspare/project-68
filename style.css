@@ -1,24 +1,97 @@
-#MyNavbar{
-    font-size: 18px;
+body {
+text-align: center;
+background-color: yellow;
 }
 
-#Mar{
-    background-color: blue;
-    color: white;
-    font-size: 16px;
+marquee {
+margin-top: 50px;
+background-color: navy;
+color: white;
 }
 
-img{
-    width:auto;
-    height: auto;
+iframe {
+margin: 10px;
 }
 
-#contactus{
-    width: 90%;
-    margin-bottom: 1%;
+#home {
+background-color: yellow;
+padding-bottom: 50px;
 }
 
-html{
-    scroll-behavior: smooth;
+#contact-us {
+background-color: indianred;
+padding: 50px;
+color: black;
 }
 
+#mspierson {
+border-radius: 200px;
+}
+
+#map{
+margin-right: 300px;
+}
+
+#school-life{
+background-color: dodgerblue;
+padding: 50px;
+color: black;
+}
+
+#achievements{
+background-color: ghostwhite;
+padding-top: 50px;
+}
+
+.bg-primary{
+height: 50px;
+border-radius: 100px;
+margin-top: 10px;
+}
+
+h4{
+font-size: 20px;
+}
+
+#whats-new{
+padding: 50px;
+background-color: bisque;
+height: 1661.5px;
+}
+
+#playground{
+width: 800px;
+}
+
+#congratulations{
+margin-bottom: 50px;
+}
+
+nav{
+position: fixed;
+width: 100%;
+z-index: 1;
+}
+
+.list-group-item{
+z-index: 0;
+}
+
+#alumni{
+background-color: lightslategrey;
+padding: 50px;
+color: black;
+height: 850px;
+}
+
+div{
+text-align: center;
+}
+
+.img-responsive{
+margin-bottom: 5px;
+}
+
+.modal{
+text-align: center;
+}
