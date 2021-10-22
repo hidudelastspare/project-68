@@ -1,35 +1,127 @@
-
+<!DOCTYPE html>
 <html>
-    <head>
-      <title>Sound Identification Web App</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
-      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-  
-    <body>
-      <div class="col-xs-12 header_div text-center">
-        <h2>Sound Controlled Animals</h2>
-        <p>Note: Play Different Sounds Like Barking, Meowing, Roaring, Mooing, Background Noise</p>
-      </div>
-      <div class="main_div">
-        <center>
-          <br>
-          <button class="btn btn-info" onclick="startClassifictaion()">START</button>
-          <h3 id="detected"> </h3>
-          <h4 id="voice">I Can Hear - </h4>
-          <img src="https://shravaripatil.github.io/Sound_controlled_animals/listen.gif" id="image" width="300" height="300">
-        </center>
-      </div>
-      <div class="footer">
-        Developed By - Isa      </div>
-  <script src="main.js"></script>
-    </body>
-  </html>
-https://teachablemachine.withgoogle.com/models/SzgHAqeIp/
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://live.staticflickr.com/4809/39704276483_28584e2ef2_b.jpg">
+                    <h4 class="text-capitalize"><kbd>school madressa</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">Write someth</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-capitalize text-success text-left">Was built in 1980</h5>
+                    <p class="text-muted text-left text-success text-left">Write something about the mentioned place</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left text-muted">Write something about the mentioned place</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Our AAP program
+                </h5>
+                <p>Churchill Road provides 4 levels of this program. Level 1 (Critical and Creative Thinking Lessons) is provided to students grades K-6, and consists of model lessons that are designed to teach critical and creative thinking skills. The lessons are modeled in all classrooms by Advanced Academic Resource Teachers (AARTs) and the thinking strategies are then used throughout the year by classroom and other teachers who work with students. Student responses to these lessons are used as part of the identification process for Levels II-IV. Parents may also practice these strategies during family conversations and activities. In Level 2 (Differentiated Lessons in Areas of Academic Strength, Grades ), the AART collaborates with classroom teachers to provide additional challenges through lessons and resources that extend and enrich the Program of Studies. Screening for this level of service is ongoing throughout the school year. For Level 3 (Part-Time Advanced Academic Programs), students identified by our local Advanced Academic committee work directly with the AART each week in a small group setting. During this time, students are challenged with enrichment and extension activities developed to enhance grade-level curriculum. Finally, for Level 4 (Full-Time Advanced Academic Programs), Students found eligible for placement in full-time Level IV Advanced Academic Programs through a central selection process receive a highly challenging instructional program in the four core subject areas. Churchill Road houses an AAP that draws identified gifted students from a number of neighboring elementary schools including Kent Gardens and Spring Hill . Currently there are multiple classrooms at each grade level from grades 3 through 6. Students in the AAP center study the same Fairfax County Program of Studies curriculum as do students in the base school with instructional techniques that are designed to match the educational learning styles of gifted students. All AAP students are instructed one year ahead in math and are engaged in a Mathematics contest called "Continental Math." Additional language arts, science and history units for gifted students, designed by the College of William and Mary's Center for Gifted Education, are part of the enriched AAP curriculum. Higher level thinking skills are stressed through class discussions and project-based learning, which allow students to learn to work together to solve problems. Technology is used as a tool for learning with all students. Students use computers for word processing, creating graphs, spreadsheets, and databases, designing multimedia presentations, and to access the Internet for research.</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+         Our FLES/LTC program<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Our FLES/LTC program
+                </h5>
+                <p>The Foreign Language in the Elementary School/Language through Content (FLES/LTC) Program helps students learn a world language through Science and STEAM (Science, Technology, Engineering, the Arts, and Mathematics) integrated content. The program provides language learning opportunities to all students in an elementary school from grades K through 6th. The goal of FLES/LTC is to develop students’ language proficiency and 21st-century skills by teaching World Languages through STEAM, with a strong emphasis on Science. Teachers use Project-Based Learning to help students learn another language while developing skills in all areas. Generally, students receive 60 minutes of language instruction per week. This model supports the five goal areas of the national standards for world language (communication, culture, connections, comparisons, and communities) and is aligned with the Virginia SOL for World Languages.</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Our ESOl program<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">
+                </h5>
+                <p>Our English for Speakers of Other Languages (ESOL) services help students achieve academic success, develop critical thinking skills, and solve problems. More specifically, ESOL services: Develops English learners’ language proficiency and communication skills, creates rigorous content-based curricula and resources to foster English learners’ collaboration, critical thinking, and problem-solving skills, supports English learners’ access to advanced academics or appropriate special services, provides learning environments that build on students’ diverse academic, linguistic, and cultural backgrounds, and promotes active participation of English learners and their families in the school community.</p>
+            </div>
+        </div>
+
+        <u1 class="list_group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>New School Canteen</h4>
+                <img src="https://i.postimg.cc/bZcSmqsb/scl.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                
+                    The school canteen has been rebuilt,it's a very nice canteen
+                </p>
+            </li>
+        </u1>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>

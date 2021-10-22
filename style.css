@@ -1,35 +1,106 @@
-body{
-    background: #E2E8DD;
-    font-family: 'Akaya Telivigala', cursive;
+
+html {
+ scroll-behavior: smooth;
 }
-.header_div{
-    background: #95A3A4;
-    color: white;
+
+#map iframe
+{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
 }
-.header_div p{
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
+
+.contact_1 h3
+{
+    display: inline;
 }
-.main_div button{
-    margin-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px;
-    font-weight: bolder;
-    width: 130px;
+.contact_1 a
+{
+    text-shadow: none;
 }
-.footer{
-    color: #6c757d;
-    font-size: 18px;
-    text-align: center;
+
+#footer{
+  height: 20px;
+  background-color:white;
+  }
+
+input
+{
+    background: grey
+}
+
+.announcement{
+background-color:#337ab7;
+width: 100%;
+height: 30px;
+}
+
+#marqueeStyle{
+  width:100%;
+  direction:right;
+  height:100px;
+  color: beige;
+  font-size:120%;
+}
+
+#video{
+  width:100%;
+  height:500px;
+  border: none;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.travel_mainDiv
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img
+{
+  width: 100%;
+  height:300px;
+} 
+
+.travel_mainDiv hr
+{
+    width: 100%; 
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p
+{
+margin-left: 20px;
+}
+
+
+#achievementsID{
+ padding-bottom: 10px;
+}
+
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
     width: 100%;
-    position: fixed;
-    bottom: 0px;
-    background-color: #f5f5f5;
-    line-height: 3;
-    text-shadow: 5px 5px 5px rgb(151,149,149);
+    display: inline-block;
 }
-h4{
-    font-size: 25px;
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
 }
